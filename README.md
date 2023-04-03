@@ -2,7 +2,7 @@
 Possible std::variant implementation
 
 
-Интерфейс и все свойства и гарантии соответствуют [std::variant](https://en.cppreference.com/w/cpp/utility/variant). Специализацию `std::hash` не написана.
+Интерфейс и все свойства и гарантии соответствуют [std::variant](https://en.cppreference.com/w/cpp/utility/variant). Специализация `std::hash` не написана.
 По возможности сохраняются тривиальности для special members (деструктора, конструкторов и операторов присваивания).
 Правильно расставлены noexcept.
 
